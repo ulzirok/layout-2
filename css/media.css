@@ -1,0 +1,110 @@
+@media (max-width: 1199.98px){
+  .blog .row{
+    align-items: center;
+  }
+  .contact .col-xl-3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 991.98px){
+  .navbar{
+    margin-bottom: 200px;
+  }  
+  header{
+    padding-bottom: 200px;
+  }
+  .sponsors-logo{
+    max-width: 500px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  section{
+    padding: 100px 60px;
+  }
+  .about .col-xl-6 p{
+    text-align: center;
+  }
+  .about-slider .left, .about-slider .right{
+    top: 68px;
+  }
+  .blog .col-xl-7{
+    margin-top: 20px;
+  }
+}
+@media (max-width: 767.98px){
+  .navbar{
+    margin-bottom: 100px;
+  }  
+  header{
+    padding-bottom: 100px;
+  } 
+  header h1{
+    font-size: 40px;
+  }
+  section{
+    padding: 100px 30px;
+  }
+  .contact input[type="submit"]{
+    width: 145px;
+    height: 41px;
+  }
+  .contact form p{
+    font-size: 11px;
+    margin-left: 11px;
+  }
+}
+@media (max-width: 575.98px){
+  header h1{
+    font-size: 30px;
+  }
+  header .started{
+    padding: 16px 25px;
+  }
+  .about-slider .left, .about-slider .right{
+    top: 77px;
+  }
+  .gallery-btn{
+    flex-wrap: wrap;
+  }
+  .gallery-btn button{
+    margin: 6px 12px;
+  }
+  .like a{
+    padding: 16px 25px;
+  }
+  .blog{
+    padding: 100px 0;
+   
+  }
+  .blog .blog-text, .blog a{
+    text-align: center;
+  }
+  .blog a{
+   margin-left: 114px;
+  }
+  .post-text h4{
+    font-size: 14px;
+  }
+  .post-date span{
+    font-size: 20px;
+  }
+  .post-date{
+    font-size: 12px;
+  }
+  .contact{
+    padding: 100px 10px;
+  }
+  .contact .col-xl-3{
+    flex-direction: column;
+  }
+  .contact form p{
+    margin: 0;
+  }
+  .contact input[type="submit"]{
+    margin: 0 auto;
+  }
+}
