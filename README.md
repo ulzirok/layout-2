@@ -10,5 +10,4 @@
 - Модальное окно с формой "Get Started"
 - Валидация полей в формах (проверка на пустые поля)
 
-## Ссылка на сайт:
-https://ulzirok.github.io/layout-2/
+## Ссылка на сайт: https://ulzirok.github.io/layout-2/
